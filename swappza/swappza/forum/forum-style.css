@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2015, 3:20:08 AM
+    Author     : Omar
+*/
+
+select:required:invalid {
+  color: gray;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+.ef-centered-container {
+    width:50%;
+    margin:2% auto;
+}
+
+/*Subcategory and Category Page*/
+
+.ef-p1-category-container {
+    width:96%;
+    background:#dddddd;
+    border-radius:5px;
+    padding:1%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ef-p1-category-text {
+    font-size:140%;
+    color:#000;
+    display:block;
+}
+
+.ef-p1-subcategory-container {
+    clear:both;
+    background:#5555ff;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+    border-radius:5px;
+    padding:1% 2%;
+}
+
+.ef-p1-subcategory-text {
+    display:block;
+    text-decoration:none;
+    color:#330000;
+    
+}
+
+/*Subcategory and Forum Topic list page*/
+.ef-p2-subcategory-container {
+    width:96%;
+    margin-left:auto;
+    margin-right:auto;
+    background:#dddddd;
+    padding:1%;
+    border-radius:5px;
+}
+
+.ef-p2-breadcrumb {
+    margin:1%;
+    display:block;
+}
+
+.ef-p2-breadcrumb a {
+    text-decoration: none;
+}
+
+.ef-p2-breadcrumb a:visited {
+    color:#000;
+    text-decoration: none;
+}
+
+.ef-p2-breadcrumb a:link {
+    text-decoration: none;
+}
+
+.ef-p2-breadcrumb a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.ef-p2-breadcrumb a:active {
+    text-decoration: none;
+}
+
+.ef-p2-forumtopic-container {
+    font-size:100%;
+    background:#5555ff;
+    width:90%;
+    padding:1% 2%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ef-p2-forumtopic-text {
+    text-decoration:none;
+    font-size:100%;
+}
+
+.ef-p2-forumtopic-text:hover {
+    color:#fff;
+}
+
+.ef-p2-forumtopic-text:visited {
+    color:#000;
+}
+
+/*Forum Topic and Comment Page*/
+.ef-p3-subcategory-container {
+    width:94%;
+    margin-left:auto;
+    margin-right:auto;
+    background:#dddddd;
+    padding:2%;
+    border-radius:5px;
+}
+
+.ef-p3-breadcrumb {
+    margin:1%;
+    display:block;
+}
+
+.ef-p3-breadcrumb a {
+    text-decoration: none;
+}
+
+.ef-p3-breadcrumb a:visited {
+    color:#000;
+    text-decoration: none;
+}
+
+.ef-p3-breadcrumb a:link {
+    text-decoration: none;
+}
+
+.ef-p3-breadcrumb a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.ef-p3-breadcrumb a:active {
+    text-decoration: none;
+}
+
+.ef-p3-forumtopic-container {
+    font-size:100%;
+    background:#5555ff;
+    width:90%;
+    padding:1% 2%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ef-p3-forumtopic-text {
+    text-decoration:none;
+    font-size:100%;
+}
+
+.ef-p3-forumtopic-text:hover {
+    color:#fff;
+
+}
+
+.ef-p3-forumtopic-text:visited {
+    color:#000;
+}
+
+.ef-p3-forumtopic-title-text {
+    font-weight:600;
+    font-size:130%;
+    display:block;
+}
+
+.ef-p3-forumtopic-header {
+    font-weight:600;
+    font-size:100%;
+    display:block;
+}
+
+.ef-p3-forumtopic-container > DIV {
+    margin-top:2%
+}
+
+.ef-p3-forumtopic-attachment-item {
+    display:block;
+}

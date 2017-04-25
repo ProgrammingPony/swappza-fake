@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2015, 4:00:00 PM
+    Author     : Omar
+*/
+
+/*Text*/
+.swappza-profile-section-header-text {
+    text-transform:uppercase;
+    font-size:110%;
+    color:#000;
+    display:inline-block;
+    width:30%;
+}
+
+.swappza-profile-username-text {
+    font-size:160%;
+    font-weight:600;
+    display:block;
+}
+
+.swappza-profile-address-text {
+    font-size:110%;
+    display:block;
+}
+
+.swappza-profile-haswants-text {
+    font-size:200%;
+    font-weight:600;
+    
+}
+
+.swappza-profile-textbox-text {
+    font-size:160%;
+    color:#fff;
+}
+
+.swappza-profile-form-section-label {
+    display:block;
+    margin-bottom:6%
+}
+
+/*Dividers*/
+.swappza-half-horizontal-line-divider {
+    width:30%;
+    height:1px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000;
+    display:inline-block;
+}
+
+.swappza-dotted-horizontal-divider {
+    width:60%;
+    border-style:dotted;
+    border-width:1px;
+    height:1px;   
+}
+
+/*Containers*/
+.swappza-profile-listings-container {
+    text-align:center;
+    font-size:170%;
+    text-transform:uppercase;
+}
+
+.swappza-profile-form-container {
+    text-transform:uppercase;
+    font-size:100%;
+    width:40%;
+    padding:4%;
+    float:left;
+}
+
+.swappza-profile-halfcolumn {
+    margin-top:3%;
+    width:40%;
+    text-align:left;
+    float:left;
+    margin-left:6%;
+}
+
+.swappza-profile-sectionheader-container {
+    margin-top:8%;
+    text-align:center;
+    width:100%;
+    clear:both;
+}
+
+.swappza-profile-button-center-container {
+    text-align:center;
+    width:100%;
+    clear:both;
+}
+
+.swappza-profile-field-container {
+    margin-bottom:6%;
+}
+
+/*Images*/
+.swappza-profile-listings-image {
+    width:160px;
+}
+
+/*Other*/
+.swappza-profile-form-button {
+    background:#000;
+    color:#fff;
+    clear:both;
+    width:200px;
+    text-transform:uppercase;
+    font-size:105%;
+    padding:1% 0;
+}
+
+.swappza-profile-form-container LABAL {
+    display:inline-block;
+    float:left;
+    clear:left;
+    font-size:110%;
+}
+
+.swappza-profile-form-container INPUT {
+    background:#000;
+    color:#fff;
+    float:right;
+    clear:right;
+    padding:2% 1%;
+}

@@ -1,0 +1,241 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-May-2015, 4:41:52 PM
+    Author     : Omar
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+A:link, A:visited, A:active {
+    text-decoration:none;
+}
+
+BODY {
+    font-family:Helvetica;
+}
+
+IMG {
+    outline:0;
+    border:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*General Styles*/
+.centered-container {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.full-width-container {
+    width:100%;
+    clear:both;
+}
+
+.one-column-container {
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.centered-text {
+    text-align:center;
+}
+
+/*Header*/
+.upper-header-background {
+    background:#F06C14;
+    margin-top:0;
+    padding-top:0;
+}
+
+.upper-header-menu {
+    line-height:50px;
+    vertical-align:top;
+}
+
+.lower-header-background {
+    background:#C6C6C6;
+    color:#FFFFFF;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+#lower-header-profile-container {
+    float:left;
+}
+
+#lower-header-post-swap-container {
+    float:right;
+}
+
+#lower-header-social-icon-container {
+    float:right;
+}
+
+.lower-header-social-icon {
+    width:30px;
+    height:auto;
+}
+
+/*Message Container*/
+
+#message-section {
+    display:none;
+}
+
+.message-background {
+    background:#999999;
+    color:#000;
+    font-weight:600; 
+}
+
+.message-background a {
+    text-decoration:none;
+    color:#000;
+    font-weight:800;
+}
+
+.message-background a:link {
+    text-decoration:none;
+}
+
+.message-background a:visted {
+    text-decoration:none;
+}
+
+.message-background a:hover {
+    text-decoration:underline;
+}
+
+.message-background a:active {
+    text-decoration:none;
+}
+
+/*Body*/
+.body-content {
+    font-size:115%;
+}
+
+.body-content a {
+    font-weight:600;
+    color:#000;
+    text-decoration:none;
+}
+
+.body-content a:link {
+    color:#000;
+    text-decoration:none;
+}
+
+.body-content a:visited {
+    color:#000;
+    text-decoration:none;
+}
+
+.body-content a:hover {
+    color:#F06C14;
+    text-decoration:underline;
+}
+
+.body-content a:active {
+    color:#000;
+    text-decoration:none;
+}
+
+.body-content H1 {
+    text-transform:uppercase;
+    font-size:160%;
+    margin-bottom:8px;
+    margin-top:4px;
+}
+
+.body-content H2 {
+    text-transform:uppercase;
+    font-size:140%;
+    margin-bottom:8px;
+}
+
+.body-content H3 {
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size:140%;
+    margin-bottom:8px;
+}
+
+/*Footer*/
+.footer-background {
+    background:#F06C14;
+    padding:5px 0;
+    color:#fff;
+    font-size:100%;
+    font-weight:600;
+}
+
+.footer-link {
+    color:#fff;
+    text-decoration:none;
+}
+
+.footer-link:link {
+    text-decoration:none;
+}
+
+.footer-link:visited {
+    text-decoration:none;
+}
+
+.footer-link:hover {
+    text-decoration:underline;
+}
+
+.footer-link:active {
+    text-decoration:none;
+}
+
+.footer-content {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+/*Top Location Field Autocomplete*/
+#top-location-container {
+    height:60px; /*52 was exact*/
+    width:200px;
+    display:inline-block;
+    background:transparent;
+    box-sizing: border-box;
+    max-height:60px;
+    text-align:center;
+}
+
+.location-autocomplete-option {
+    width:100%;
+    display:block;
+    background:#fff;
+    color:#000;
+    font-size:40%;
+    border-style:solid;
+    border-width:1px;
+    border-color:#666666;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    float:left;
+    clear:both;
+    padding:0;
+    cursor: pointer;
+}

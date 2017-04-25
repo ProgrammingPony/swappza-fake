@@ -1,0 +1,288 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-May-2015, 10:41:14 AM
+    Author     : Omar
+*/
+
+/*GENERAL*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+A:link, A:visited, A:active {
+    text-decoration:none;
+}
+
+BODY {
+    font-family:Helvetica;
+}
+
+TEXTAREA {
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline-style:solid;
+    outline-width:2px;
+    resize:none;
+}
+
+INPUT {
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display:block;
+    outline-style:solid;
+    outline-width:2px;
+    margin-top:6px;
+}
+
+INPUT[type="checkbox"], INPUT[type="radio"] {
+    outline-style:none;
+    display:inline-block;
+    margin-left:8px;
+    width:auto;
+}
+
+LABEL {
+    display:block;
+    margin-top:2%;
+    font-size:140%;
+}
+
+BUTTON {
+    font-size:140%;
+    margin-top:2%;
+}
+
+/*LEFT COLUMN AND LINKS*/
+#backend-left-column {
+    width:100px;
+    float:left;
+    clear:left;
+    background:#d66004;
+    text-align:center;
+    color:#fff;
+    font-size:100%;
+}
+
+.backend-left-link-icon {
+    width:60px;
+    height:60px;
+    display:block;
+    display:inline-block;
+    clear:both;
+}
+
+.backend-left-link-active {
+    background:#b85300;
+    display:block;
+    margin-top:10px;
+}
+
+.backend-left-link-inactive {
+    background:transparent;
+    margin-top:10px;
+    display:block;
+}
+
+.backend-left-link-active a {
+    color:#fff;
+}
+
+.backend-left-link-inactive:visited {
+    cursor:default;
+    background:transparent;
+}
+
+.backend-left-link-inactive:link {
+    cursor:default;
+    background:transparent;
+}
+
+.backend-left-link-inactive:hover {
+    cursor:pointer;
+    background:#b85300;
+}
+
+.backend-left-link-inactive:active {
+    cursor:default;
+    background:transparent;
+}
+
+.backend-left-link-inactive a {
+    color:#fff;
+}
+
+/*RIGHT COLUMN AND GENERAL CONTENT*/
+#backend-content-column {
+    width:800px;
+    float:left;
+    clear:right;
+    padding:0 50px;
+}
+
+.backend-title {
+    font-size:160%;
+    display:block;
+    width:100%;
+    background:#e1e3e5;
+    margin-top:1%;
+}
+
+#backend-message {
+    width:98%;
+    background:#000;
+    color:#fff;
+    font-size:120%;
+    padding:1% 1%;
+    margin:1% 0;
+}
+
+.backend-content {
+    display:none;
+}
+
+/*Content Title bar and contents*/
+.backend-content-title-bar {
+    width:80%;
+    margin:2% auto;
+    padding:2%;
+    color:#fff;
+    border-radius:7px;
+    background:#b85300;
+    height:55px;
+}
+
+.backend-content-title-bar-icon {
+    width:50px;
+    height:50px;
+    display:inline-block;
+    float:left;
+    clear:left;
+}
+
+.backend-content-title-bar-text {
+    font-size:160%;
+    display:inline-block;
+    float:left;
+    line-height:70px;
+    vertical-align:baseline;
+    margin-left:6px;
+}
+
+.backend-content-title-bar-link {
+    display:inline-block;
+    width:60px;
+    font-size:100%;
+    float:right;
+    text-align:center;
+    cursor:pointer;
+}
+
+.backend-content-title-bar-link-icon {
+    display:inline-block;
+    width:35px;
+    height:35px;
+}
+
+.backend-content-title-bar-link-end {
+    clear:right;
+}
+
+/*Table Styles*/
+.backend-content-table {
+    color:#fff;
+}
+
+.backend-content-table-column-label-row {
+    background:#d66004;
+}
+
+.column-label-container {
+    text-align:center;
+    color:#fff;
+    border-color:#fff;
+}
+
+.table-field-container {
+    display:inline-block;
+    line-height:200%;
+}
+
+/*Pages content table*/
+.pages-content-column-label-row {
+    color:#fff;
+    text-align:center;
+}
+
+.backend-content-table-data-row {
+    text-align:left;
+    border-style:none none solid none;
+    border-color:#000;
+    border-width:1px;
+}
+
+.pages-content-field-container {
+    border-style:none solid none none;
+    border-width:1px;
+    overflow-x:hidden;
+}
+
+.pages-content-checkbox-element-container {
+    background:#fff;
+    width:20px;
+    border-style:none;
+}
+
+.pages-content-table-id-column-container {
+    width:60px;
+}
+
+.pages-content-table-linkname-column-container {
+    width:100px;
+}
+
+.pages-content-table-author-column-container {
+    width:80px;
+}
+
+.pages-content-table-datetime-column-container {
+    width:160px;
+}
+
+.pages-content-table-int-column-container {
+    width:80px;
+}
+
+.table-name-column-container {
+    width:160px;
+}
+
+/*New Table Styles*/
+.backend-selectall-cell {
+    background:#fff;
+}
+
+.table-email-column-container {
+    width:200px;
+}
+
+/*Button Styles*/
+
+/*Ace editor*/
+#sourceCodeEditor { 
+    position: relative;
+    height:600px;
+}

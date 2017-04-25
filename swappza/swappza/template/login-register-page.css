@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2015, 6:21:04 PM
+    Author     : Omar
+*/
+
+.swappza-logreg-container {
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+}
+
+.swappza-logreg-container > * {
+    vertical-align:top;
+}
+
+.swappza-logreg-halfcolumn {
+    background:transparent;
+    width:440px;
+    display:inline-block;	
+}
+
+.swappza-logreg-halfcolumn-container {
+    width:80%;
+    border-radius:3px;
+    background:#fff;
+    padding:1% 2% 1% 2%;
+    display:inline-block;
+    color:#000;
+    margin-top:10px;
+}
+
+.swappza-logreg-halfcolumn input[type="text"], .swappza-logreg-halfcolumn input[type="password"] {
+    border-radius:3px;
+    background:#fff;
+    font-size:large;
+    color:#000;
+    display:inline-block;
+    width:80%;
+    padding:1% 2%;
+    margin-top:5px;
+}
+
+.swappza-logreg-halfcolumn input[type="text"]::-webkit-input-placeholder, .swappza-logreg-halfcolumn input[type="password"]::-webkit-input-placeholder {  
+    color:#000;
+    text-transform:uppercase;
+}
+
+.swappza-logreg-halfcolumn input[type="text"]:-moz-placeholder, .swappza-logreg-halfcolumn input[type="password"]:-moz-placeholder {  
+    color:#000;
+    text-transform:uppercase;
+}
+
+.swappza-logreg-halfcolumn input[type="text"]::-moz-placeholder, .swappza-logreg-halfcolumn input[type="password"]::-moz-placeholder {  
+    color:#000;
+    text-transform:uppercase;
+}
+
+.swappza-logreg-halfcolumn input[type="text"]:-ms-input-placeholder, .swappza-logreg-halfcolumn input[type="password"]:-ms-input-placeholder{  
+	color:#000;
+	text-transform:uppercase;
+}
+
+.swappza-logreg-halfcolumn input[type="text"]:focus,  .swappza-logreg-halfcolumn input[type="password"]:focus {
+	outline:0;
+}
+
+.swappza-logreg-halfcolumn input[type="checkbox"] {
+	margin-top:20px;
+}
+
+.swappza-logreg-halfcolumn button {
+	padding:5px 10px;	
+	font-size:120%;
+	color:#000;
+	background:#fff;
+	border-style:none;
+	margin-top:10px;
+	text-transform:uppercase;
+}
+
+.swappza-logreg-halfcolumn .swappza-checkbox-text {
+	color:#fff;
+	margin-left:25px;
+}
+
+.swappza-logreg-sociallogin-icon {
+	width:150px;
+	height:auto;
+	display:inline-block;
+        margin:0;
+}
+
+
+.swappza-logreg-vertdiv-container { /*Vertical divider*/
+	width:100%;
+	display:block;
+	margin-top:10px;	
+}
+
+.swappza-logreg-vertdiv-container > hr { /*Half vertical divider*/
+	width:44%;
+	display:inline-block;
+	border-color:#343434;
+	color:#343434;
+}
+
+.swappza-logreg-vertdiv-text {
+	text-transform:uppercase;
+	color:#fff;
+	font-size:small;
+	position:relative;
+	top:-4px;
+	display:inline-block;
+	left:2px;
+}
+
+.swappza-logreg-title {
+	text-transform:uppercase;
+	color:#fff;
+	font-size:large;
+}
+
+.swappza-logreg-link {
+	color:#fff;
+	display:inline-block;
+	font-size:medium;
+}
+
+.swappza-logreg-link:visited, .swappza-logreg-link:link .swappza-logreg-link:active {
+	color:#fff;
+	text-decoration:none;
+}
+
+.swappza-logreg-link:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
+/*overrides from base*/
+.body-content a:visited, .body-content a:link, .body-content a:active {
+    color:#fff;
+}
+
+.body-content a {
+    margin-top:2%;
+}
+
+/*Message Container*/
+#swappza-logreg-message {
+    background:#000;
+    color:#fff;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    text-align:center;
+    margin-top:0;
+    font-size:120%;
+    font-weight:600;
+}

@@ -1,0 +1,543 @@
+/*ADDED STYLES*/
+/*Generic Modifiers*/
+.swappza-left-clear {
+	clear:left;
+}
+
+.swappza-right-clear {
+	clear:right;
+}
+
+.swappza-clear-both {
+	clear:both;
+}
+
+.swappza-center-children {
+	text-align:center;
+}
+
+.swappza-leftalign-children {
+	text-align:left;
+}
+
+.swappza-checkbox-text { /*Any Text coming to the right of a checkbox */
+	margin-left:10px;
+	font-size:100%;
+	display:inline-block;
+}
+
+/* Custom Swappza Header */
+.swappza-header {
+    overflow: visible;
+  /* height: 84px; */
+  z-index: 5;
+  text-align: center;
+  /* padding-top: 10px; */
+}
+
+.swappza-header > #top-menu-1 {
+    position:relative;
+    top:-24px;
+    line-height:56px;
+}
+
+#header {
+}
+
+/* Top Logo */
+.top-logo {
+    width:150px;
+    height:auto;
+    display:inline-block;
+}
+
+/*Top Menu 2014*/
+.top-menu-1-text {
+    font-family:Helvetica;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:80%;
+    color:#FFF;
+}
+
+.top-menu-1-text:hover {
+    text-decoration:none;
+}
+
+.top-menu-1-selected {
+    border-style:none none solid none;
+    border-color:#F06C14;
+    color:#F06C14;
+}
+
+.top-menu-1-selected:link  .top-menu-1-selected:visited .top-menu-1-selected:hover .top-menu-1-selected:active {
+	color:#F06C14;
+}
+
+.top-menu-1-notselected {
+    color:#FFF;
+    padding:27px 10px;	
+}
+
+.top-menu-1-notselected:link .top-menu-1-notselected:visited  {
+    color:#F06C14;
+    background:#000;
+}
+
+.top-menu-1-notselected:hover {
+	color:#000000;
+	background:#fff;
+}
+
+.top-menu-1-notselected:active {
+	color:#F06C14;
+	background:#fff;
+}
+
+#top-menu-1 {
+	display:inline-block;
+	font-size:160%; /*was large*/
+	color:#fff;
+	margin-left:100px;
+}
+
+#top-location-field {
+	background-color:#FFF;
+	border-width:1px;
+	border-color:#000;
+	border-style:solid;
+	font-size:80%;
+	width:86%;
+	color:#000;
+	display:block;
+	padding:4% 6%;
+	text-transform:uppercase;
+	border-radius: 17px;
+}
+
+/*prefeature section*/
+.swappza-prefeatured {
+    background:#C6C6C6;
+    text-align:center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height:30px;
+    padding-top:0;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+/*login-register button*/
+.prefeatured-item-container {
+	background:transparent;
+	color:#fff;
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:600;
+        margin-top:5px;
+}
+
+.prefeatured-item-container > a:link, .prefeatured-item-container > a:visited {
+    color: #000;
+    text-transform: uppercase;
+    background: #FFF;
+    padding: 6px;
+    font-size: 100%;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.prefeatured-item-container > a:hover, .prefeatured-item-container > a:active {
+    color:#FFF;
+    text-transform:uppercase;
+    background:#000;
+    padding:6px;
+    font-size:100%;
+    text-decoration:none;
+}
+
+.prefeatured-item-container > .social-link {
+    margin-left:4px;
+}
+
+.prefeatured-item-container .social-icon {
+    position:relative;
+    top:4px;
+}
+
+.new-ads-near-you-container {
+    width:300px;
+    display:inline-block;
+}
+
+.new-ads-near-you-container:link, .new-ads-near-you-container a:visited {
+    color:#ffffff;
+    background:#000;
+}
+
+.new-ads-near-you-container:hover .new-ads-near-you-container a:active {
+    color:#000;
+    background:#fff;
+}
+
+#swappza-template-profile-icon {
+    height:15px;
+    width:auto;
+}
+
+/*Post Swap Container Items*/
+.post-swap-container {
+    position:relative;
+    background-color:#000000;
+    color:#ffffff;
+    border-color:#F06C14;
+    border-width:2px;
+    border-style:none solid solid solid;
+    height:90px;
+    width:60px;
+    float:left;
+    margin-left:20px;
+    z-index:50;
+    padding:10px;
+    clear:right;
+    text-align:center;
+}
+
+.post-swap-text-1 {
+    text-transform:uppercase;
+    font-size:20px;
+    display:block;
+    background:transparent;
+    margin:20px auto 0 auto;
+    font-weight:600;
+    width:100%;
+}
+
+.post-swap-text-2 {
+    text-transform:uppercase;
+    font-size:16px;
+    display:block;
+    font-weight:600;
+    width:100%
+}
+
+/*Custom Home Page Styles*/
+/*I Want I Have Container*/
+.want-have-container {
+    width:900px;
+    height:150px;
+    background:#bbbbbb;
+    text-align:center;
+    margin:0 auto;
+}
+
+.want-have-column {
+    width:400px;
+    padding:20px;
+    float:left;
+    background:transparent;
+    text-align:center;
+}
+
+.want-have-column > input[type="text"] {
+    border-radius:3px;
+    border-color:#000;
+    border-width:2px;
+    border-style:solid;
+}
+
+.want-have-column > input[type="text"]:focus {
+    outline:0;
+}
+
+
+.want-have-column-divider {
+    width:6px;
+    height:140px;
+    background:#ffffff;
+    border-color:#000000;
+    border-width:1px;
+    border-style:solid;
+    float:left;
+    display:none; /*Later asked to remove it kept in case he changes his mind*/	
+}
+
+.want-have-text {
+	display:block;
+	width:100%;
+	font-size:xx-large;
+	color:#000;
+	font-weight:600;
+	text-transform:uppercase;	
+}
+
+.want-have-field {
+	display:block;
+	width:350px;
+	font-size:xx-large;
+	color:#000000;
+	text-transform:uppercase;
+	font-weight:600;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Search Result Navigation (Nav) Bar */
+.swappza-result-nav-bar {
+	width:860px;
+	padding:5px;
+	background:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;	
+	text-align:center;
+	border-style:solid;
+	border-color:#000;
+	border-width:1px;
+}
+
+.swappza-result-nav-button {
+	display:inline-block;
+	background:#000;
+	color:#fff;
+	font-size:small;
+	padding:5px 10px;
+	text-transform:uppercase;
+}
+
+.swappza-result-nav-resultlabel {
+	display:inline-block;
+	width:600px;
+	text-align:center;
+	color:#343434;
+	font-size:medium;
+	background:transparent;
+}
+ 
+/* Search Result Display (Disp) */
+.swappza-result-disp {
+	width:900px;
+	padding:10px 0;
+	background:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;	
+	text-align:center;
+}
+
+.swappza-result-disp-unit {
+	width:880px;
+	background:transparent;
+	text-transform:uppercase;
+	color:#000;
+	margin:10px auto;
+}
+
+.swappza-result-disp-halfcolumn {
+	width:435px;
+	display:inline-block;
+	height:80px;
+}
+
+.swappza-result-disp-unitimage {
+	width:120px;
+	height:80px;
+	display:inline-block;
+}
+
+.swappza-result-disp-unittext {
+	width:250px;
+	height:80px;
+	display:inline-block;
+	text-align:left;
+	margin-left:10px;
+}
+
+.swappza-result-disp-unittext-typetext {
+	font-size:large;
+	font-weight:600;
+}
+
+.swappza-result-disp-unittext-desctext {
+	font-size:medium;
+}
+
+.swappza-result-disp-verticaldivider {
+	border-style:none none dotted none;
+	border-width:10px;
+	border-color:#000;
+	width:800px;
+	padding:5px 0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.swappza-result-disp-ad {
+	color:#000;
+	text-transform:uppercase;
+	font-weight:600;
+	display:block;
+	padding:10px 0;
+}
+
+.swappza-result-disp-ad:visited, .swappza-result-disp-ad:active, .swappza-result-disp-ad:link   {
+	color:#000;
+	text-decoration:none;
+}
+.swappza-result-disp-ad:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+/* Category Page Exclusive Content */
+.swappza-cat-wanthave-container {
+	width:880px;
+	padding:0 20px;
+	background:transparent;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.swappza-cat-wanthave-halfcolumn {
+	width:360px;
+	padding:0 8px;
+	display:inline-block;
+	text-align:center;
+}
+
+.swappza-cat-wanthave-halfcolumn > select {
+	width:300px;
+	color:#000;
+	padding:10px;
+	display:inline-block;
+	text-transform:uppercase;
+	font-size:x-large;
+}
+
+.swappza-cat-wanthave-text {
+	font-size:x-large;
+	color:#fff;
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+/* Profile Page Exclusives */
+.swappza-profile-container {
+	width:920px;
+	background:#fff;
+	padding:10px 5px;
+}
+
+.swappza-profile-container .swappza-profile-halfcolumn {
+	vertical-align:top;
+}
+
+.swappza-profile-halfcolumn {
+	width:340px;
+	display:inline-block;
+}
+
+.swappza-profile-halfcolumn > input[type="text"] {
+	width:150px;
+	margin-top:6px;
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+}
+
+.swappza-profile-halfcolumn > input[type="text"]:focus {
+	outline:0;
+}
+
+.swappza-profile-halfcolumn > input[type="password"] {
+	width:150px;
+	margin-top:6px;
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+}
+
+.swappza-profile-halfcolumn > input[type="password"]:focus {
+	outline:0;
+}
+
+.swappza-profile-container input[type="submit"] {
+	margin-top:20px;
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding:6px 10px;
+	border-style:none;
+	text-transform:uppercase;
+}
+
+.swappza-profile-halfcolumn > label {
+	text-transform:uppercase;
+	color:#000;
+	display:inline-block;
+	padding-right:6px;
+	width:134px;
+}
+
+.swappza-profile-usernamelabel {
+	font-size:x-large;
+	color:#000;
+}
+
+.swappza-profile-addresslabel {
+	font-size:medium;
+	color:#000;
+}
+
+.swappza-profile-infolabel {
+	color:#000;
+	font-size:large;
+}
+
+.swappza-profile-vertdiv {
+	width:100%;
+	text-transform:uppercase;
+	font-size:medium;
+	margin-top:50px;
+}
+
+.swappza-profile-vertdiv > hr {
+	width:250px;
+	border-color:#000;
+	color:#000;
+	display:inline-block;
+}
+
+.swappza-profile-subheader {
+	color:#000;
+	text-transform:uppercase;
+	font-size:large;
+	margin-top:30px;
+	display:block;
+}
+
+/* Post Swap Page */
+.swappza-postswap-container {
+	width:920px;
+	background:#fff;
+	padding:10px 5px;
+	text-align:center;
+}
+
+.swappza-postswap-container > * {
+	vertical-align:top;
+}
+
+.swappza-postswap-halfcolumn {
+	display:inline-block;
+	width:440px;
+	background:transparent;
+}
+
+.swappza-postswap-vertdiv {
+	display:inline-block;
+	width:16px;
+	background-color:#343434;
+}
